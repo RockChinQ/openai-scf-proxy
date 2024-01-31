@@ -3,7 +3,7 @@ name: Build Latest Image
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - '**/*.md'
       - "docs/**"
